@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meet Keanu Reeves – Official Fan Registration</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to bottom right, #ffffff, #f0f0f0);
+      color: #333;
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: #fff;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      padding: 2rem;
+      margin-top: 2rem;
+      border-radius: 20px;
+    }
+    header {
+      text-align: center;
+    }
+    header img {
+      width: 150px;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+    input, textarea {
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin-top: 0.5rem;
+    }
+    button {
+      margin-top: 2rem;
+      padding: 0.9rem;
+      font-size: 1rem;
+      background: #000;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #444;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .signature {
+      text-align: right;
+      margin-top: 2rem;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Keanu_Reeves_%2848487334191%29_%28cropped%29.jpg/800px-Keanu_Reeves_%2848487334191%29_%28cropped%29.jpg" alt="Keanu Reeves">
+      <h1>Meet Keanu Reeves – Official Fan Form</h1>
+      <p>This form is officially provided by the management of Keanu Reeves. Kindly fill in your details for a potential opportunity to be considered for future meet-and-greet experiences, fan interactions, and exclusive updates.</p>
+    </header>
+    <form action="https://formspree.io/f/mwkgronr" method="POST" enctype="multipart/form-data">
+      <label for="name">Full Name</label>
+      <input type="text" name="name" id="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="text" name="phone" id="phone">
+
+      <label for="country">Country</label>
+      <input type="text" name="country" id="country" required>
+
+      <label for="social">Social Media Handle</label>
+      <input type="text" name="social" id="social">
+
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age">
+
+      <label for="reason">Why do you want to meet Keanu?</label>
+      <textarea name="reason" id="reason" rows="4" required></textarea>
+
+      <label for="selfie">Upload a Selfie (optional)</label>
+      <input type="file" name="selfie" id="selfie">
+
+      <button type="submit">Submit Registration</button>
+    </form>
+    <div class="signature">– Keanu Reeves</div>
+    <div class="footer">© 2025 KR Management | All rights reserved</div>
+  </div>
+</body>
+</html>
